@@ -3,6 +3,6 @@
 
 def key_for_min_value(name_hash)
 
-name_hash.select {|k,v| v == hash.values.min }
+name_hash.collect {|k,v| v == hash.values.min }
 
 end
