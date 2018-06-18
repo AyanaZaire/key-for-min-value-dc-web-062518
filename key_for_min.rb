@@ -7,7 +7,7 @@ ikea = {:chair => 25, :table => 85, :mattress => 450}
 
   key_value = ""
 ikea.each do |key, value|
-  if ikea == key.lowest?("A")
+  if ikea == key.least?
     key_value = key
   end
 end
